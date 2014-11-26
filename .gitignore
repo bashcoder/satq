@@ -20,3 +20,11 @@
 # Ignore simplecov output
 /coverage
 /.vagrant
+/.idea
+/vagrant_ansible_inventory_default
+*.key
+*.crt
+*.iml
+
+/public/assets/
+/vendor/bundle/

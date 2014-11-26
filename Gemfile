@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.0.0'
+ruby '2.1.4'
+
+gem 'rails', '~> 4.1.0'
 
 gem 'rails_autolink'
 gem 'auditable'
@@ -9,17 +11,14 @@ gem 'turbolinks'
 gem 'pg'
 gem 'pry-rails'
 gem 'awesome_print'
-gem 'rake'
 
 group :development do
-  gem 'simplecov', platform: :mri
-  gem 'brakeman', require: false
+  gem 'simplecov', platform: :mri, require: false
   gem 'spring'
-  gem 'minitest-reporters'
 end
 
-gem 'sass-rails'
-gem 'coffee-rails'
+
+gem 'sass-rails', '~> 4.0.3'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer'
@@ -39,5 +38,5 @@ gem 'jbuilder'
 
 gem 'devise'
 gem 'devise_invitable'
-gem 'unicorn'
 gem 'commands'
+
